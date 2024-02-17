@@ -1,0 +1,33 @@
+#loopArea{
+    /* animation-duration: 2s */
+    /* position: relative; */
+    font-size: 25px;
+    /* transform : translateY(0); */
+    /* animation: runMarq linear 2s forwards */
+}
+#coElem{
+    position:absolute;
+    /* height: 100vh; */
+}
+img{
+    height: 90vh;
+}
+body{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    overflow:  hidden;
+}
+
+@keyframes runMarq {
+    0%{
+        transform: translateX(100svw);
+    }
+    50%{
+        transform: rotate(-20deg);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+    
+}
